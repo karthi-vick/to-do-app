@@ -1,12 +1,29 @@
 .t-text {
     margin-right: 0.5rem;
-    padding: 5px 10px;
-    border: 1px solid black;
+    padding: 10px 20px;
+    border: 1.5px solid #64CCC5;
     border-radius: 50px;
+    width: 270px;
 }
-
+.t-text:focus {
+    outline: none;
+    border-color: #64CCC5;
+    box-shadow: 0 0 10px #64CCC5;
+  }
 .btn {
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: #64CCC5;
+    color: #001C30;
+    border: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 1rem;
+    font-weight: bold ;
+    
+}
+.btn:hover{
+        transition: 0.2s;
+        background-color: #001C30;
+        color: #64CCC5;
+        border: 2px solid #64CCC5;
+      
 }

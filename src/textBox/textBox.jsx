@@ -2,6 +2,7 @@ import './TextBox.css'
 import { useState } from "react"
 const TextBox=({getName})=>{
 const [task,setTask]=useState("")
+
 const changeTask=(e)=>{
 setTask(e.target.value)
 }
