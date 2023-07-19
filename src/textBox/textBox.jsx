@@ -1,12 +1,13 @@
 import './TextBox.css'
 import { useState } from "react"
 const TextBox=({getName})=>{
-const [task,setTask]=useState(" ")
+const [task,setTask]=useState("")
 const changeTask=(e)=>{
 setTask(e.target.value)
 }
 const changeSubmit=(e)=>{
-getName(task)
+    if(task!="")
+        getName(task)
 setTask('');
 e.preventDefault();
 }
@@ -14,7 +15,7 @@ return(
     <div className="text">
         <form action="">
         <input type='text' value={task} className='t-text' onChange={changeTask}/>
-        <input type="submit" onClick={changeSubmit}/>
+        <input type="submit" className="btn" onClick={changeSubmit}/>
         </form>
     </div>
 )

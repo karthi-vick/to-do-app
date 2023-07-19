@@ -1,4 +1,4 @@
-
+import "./Task.css"
 import TaskList from "./TaskList/TaskList"
 const Task=(prop)=>{
 return(
