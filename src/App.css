@@ -11,3 +11,9 @@
 .name {
     margin-bottom: 1rem;
 }
+@media only screen and (max-width: 600px) {
+    .wrapper {
+    float: none;
+    width: 100%;
+    }
+    }
