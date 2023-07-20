@@ -3,7 +3,7 @@
     padding: 10px 20px;
     border: 1.5px solid #64CCC5;
     border-radius: 50px;
-    width: 270px;
+    width: 15rem;
 }
 .t-text:focus {
     outline: none;
@@ -25,5 +25,11 @@
         background-color: #001C30;
         color: #64CCC5;
         border: 2px solid #64CCC5;
-      
+     
 }
+
+@media only screen and (max-width: 480px) {
+    .t-text {
+        margin-right: 0.2rem;
+    }
+    }
