@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {MdDelete} from 'react-icons/Md'
+import {MdDelete} from 'react-icons/md'
 
 import "./TaskList.css"
 const TaskList=(prop)=>{
