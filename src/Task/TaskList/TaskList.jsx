@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {MdDelete} from 'react-icons/md'
+import {MdDelete} from '../../../node_modules/react-icons/md'
 
 import "./TaskList.css"
 const TaskList=(prop)=>{
@@ -24,6 +24,7 @@ const handleDelete=()=>{
             <div className="t-right">
             <div>
             <input type="checkbox" onClick={changeCheck} /></div>
+            
             <button className="btndelete" onClick={handleDelete}><MdDelete className="deletebtn"/></button>   
             </div>
         </div>

@@ -16,7 +16,7 @@ return(
     <div className="text">
         <form action="">
         <input type='text' value={task} className='t-text' onChange={changeTask}/>
-        <input type="submit" className="btn" onClick={changeSubmit}/>
+        <input type="submit" className="btn" value="Submit" onClick={changeSubmit}/>
         </form>
     </div>
 )
